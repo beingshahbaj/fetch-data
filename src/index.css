@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(29, 29, 29);
+  padding: 30px 20px;
+}
+
+.container {
+  margin-top: 50px;
+  width: 100%;
+}
+
+h1 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(156, 155, 155);
+  display: inline-block;
+}
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+tbody td img {
+  width: 20px;
+}
+
+tr {
+  width: 100%;
+}
+td {
+  padding: 25px;
+  border-bottom: 2px solid rgb(196, 196, 196);
+}
